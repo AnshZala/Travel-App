@@ -40,10 +40,10 @@ const Footer = () => {
                 <div className="footerCard flex">
                     <div className="footerIntro flex">
                         <div className="logoDiv">
-                            <a href="#" className="logo flex">
+                            <span className="logo flex">  {/* a href="#" */}
                                 <MdOutlineTravelExplore className="icon" />
                                 Travel.
-                            </a>
+                            </span>
                         </div>
 
                         <div data-aos="fade-up" className="footerParagraph">

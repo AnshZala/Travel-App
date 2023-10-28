@@ -19,39 +19,39 @@ const Navbar = () => {
         <section className="navBarSection">
             <header className="header flex">
                 <div className="logoDiv">
-                    <a href="#" className="logo flex">
+                    <span className="logo flex">        {/* a href="#" */}
                         <h1>
                             <MdOutlineTravelExplore className="icon" />
                             Travel.
                         </h1>
-                    </a>
+                    </span>
                 </div>
 
                 <div className={active}>
                     <ul className="navLists flex">
                         <li className="navItem">
-                            <a href="#" className="navLink">Home</a>
+                            <span className="navLink">Home</span>       {/* a href="#" */}
                         </li>
                         <li className="navItem">
-                            <a href="#" className="navLink">Packages</a>
+                            <span className="navLink">Packages</span>    {/* a href="#" */}
                         </li>
                         <li className="navItem">
-                            <a href="#" className="navLink">Shop</a>
+                            <span className="navLink">Shop</span>       {/* a href="#" */}
                         </li>
                         <li className="navItem">
-                            <a href="#" className="navLink">About</a>
+                            <span className="navLink">About</span>      {/* a href="#" */}
                         </li>
                         <li className="navItem">
-                            <a href="#" className="navLink">Pages</a>
+                            <span className="navLink">Pages</span>      {/* a href="#" */}
                         </li>
                         <li className="navItem">
-                            <a href="#" className="navLink">News</a>
+                            <span className="navLink">News</span>       {/* a href="#" */}
                         </li>
                         <li className="navItem">
-                            <a href="#" className="navLink">Contact</a>
+                            <span className="navLink">Contact</span>    {/* a href="#" */}
                         </li>
 
-                        <button className="btn"><a href="#">Book Now</a></button>
+                        <button className="btn"><span>Book Now</span></button>
                         <div onClick={removeNavbar} className="closeNavbar">
                             <AiFillCloseCircle className="icon"/>
                         </div>

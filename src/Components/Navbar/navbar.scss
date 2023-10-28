@@ -67,6 +67,7 @@
                         color: var(--textColor);
                         font-size: .9rem;
                         font-weight: 600;
+                        cursor: pointer;
 
                         &:hover {
                             color: var(--PrimaryColor);
@@ -77,7 +78,7 @@
                 .btn {
                     margin-top: 1rem;
 
-                    a {
+                    span {      // btn > a
                         font-weight: 600;
                         color: var(--whileColor);
                     }
@@ -140,6 +141,7 @@
                         padding: 0 0.45rem;
                         font-size: 0.9rem;
                         font-weight: 500;
+                        cursor: pointer;
 
                         &:hover {
                             color: var(--PrimaryColor);
@@ -149,7 +151,7 @@
 
                 .btn {
                     margin-left: 1rem;
-                    a {
+                    span {
                         color: var(--whileColor);
                         font-weight: 500;
                     }

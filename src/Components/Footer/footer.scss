@@ -132,11 +132,12 @@
                 .logo {
                     color: var(--blackColor);
                     font-weight: 600;
+                    cursor: pointer;
 
                     .icon {
                         font-size: 25px;
                         color: var(--PrimaryColor);
-                        margin-right: 10px;
+                        margin-right: 7px;
 
                     }
                 }
